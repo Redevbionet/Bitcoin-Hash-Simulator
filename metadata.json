@@ -1,0 +1,5 @@
+{
+  "name": "Bitcoin Hash Simulator",
+  "description": "An interactive web application to demonstrate the double SHA-256 hashing algorithm used in Bitcoin and simulate the Proof-of-Work mining process.",
+  "requestFramePermissions": []
+}

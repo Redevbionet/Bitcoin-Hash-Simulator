@@ -2,8 +2,8 @@ https://bitcoin-hash-simulator-zqxa.vercel.app/
 
 
 
-<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/717351a4-229e-4e07-af71-3a9e812effdc" />
-<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/8ae4b7b7-9270-4004-bb47-139d2c9dda80" />
+<img width="410" height="410" alt="image" src="https://github.com/user-attachments/assets/717351a4-229e-4e07-af71-3a9e812effdc" />
+<img width="410" height="410" alt="image" src="https://github.com/user-attachments/assets/8ae4b7b7-9270-4004-bb47-139d2c9dda80" />
 
 ## Bitcoin Hash Simulator
 ตัวอย่างโค้ด Python ที่จำลองกระบวนการแฮชสำหรับ Bitcoin's Proof-of-Work เวอร์ชันที่เรียบง่าย

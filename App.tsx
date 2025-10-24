@@ -120,7 +120,7 @@ const HashDisplay: React.FC<HashDisplayProps> = ({ title, hash, bgColorClass = "
         <div>
             <label className="block text-sm font-medium text-slate-300 mb-1">{title}</label>
             <div className={`flex items-center space-x-2 p-3 rounded-lg ${bgColorClass} font-mono text-sm break-all`}>
-                <span className={hash ? 'text-emerald-300' : 'text-slate-500'}>{hash || '...'}</span>
+                <span className={hash ? 'text-emerald-300' : 'text-slate-500'}>{hash || ''}</span>
                 {hash && (
                     <button onClick={handleCopy} className="p-1 text-slate-400 hover:text-white transition-colors duration-200 shrink-0">
                         {copied ? <CheckIcon className="w-5 h-5 text-green-400" /> : <CopyIcon className="w-5 h-5" />}
@@ -135,7 +135,7 @@ const HashDisplay: React.FC<HashDisplayProps> = ({ title, hash, bgColorClass = "
 
 export default function App() {
     // State for basic hashing
-    const [inputData, setInputData] = useState<string>('Hello Bitcoin!');
+    const [inputData, setInputData] = useState<string>('Bitcoin!');
     const [hash1, setHash1] = useState<string | null>(null);
     const [hash2, setHash2] = useState<string | null>(null);
     const [isHashing, setIsHashing] = useState(false);

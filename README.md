@@ -73,6 +73,7 @@ https://bitcoin-hash-simulator-zqxa.vercel.app/
 ระดับความยากที่ต้องการ = 6หรือสูงกว่า:อาจต้องใช้เวลานานมาก (นาที ชั่วโมง หรือแม้กระทั่งวัน สำหรับตัวเลขที่สูงกว่าอย่างเห็นได้ชัด!) ซึ่งแสดงให้เห็นถึงความพยายามในการคำนวณที่จำเป็นสำหรับการขุด Bitcoin จริง
 โปรแกรมจำลองนี้ช่วยให้คุณเข้าใจพื้นฐานว่า Proof-of-Work ใช้การแฮชและ "nonce" อย่างไรเพื่อให้บรรลุเป้าหมายความยาก
 นี่คือภาพที่แสดงแนวคิดของการแฮชและเป้าหมายความยากในแบบจำลองที่เรียบง่าย
+<img width="1064" height="635" alt="image" src="https://github.com/user-attachments/assets/e5530d39-d03e-4b17-8816-49235e47ea0b" />
 
 # Run the simulator
 bitcoin_hash_simulator(block_data_example, desired_difficulty)

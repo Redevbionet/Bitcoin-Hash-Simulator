@@ -14,13 +14,13 @@ https://bitcoin-hash-simulator-zqxa.vercel.app/
 การขุด:"นักขุด" (โค้ดของเรา) จะลอง nonce ที่แตกต่างกันซ้ำๆ โดยแฮชข้อมูลทุกครั้ง จนกว่าจะพบ nonce ที่สร้างแฮชที่ตรงตามเป้าหมายความยาก
 นี่คือโค้ด:
 
-<! import hashlib
-import time
+         import hashlib
+         import time
 
-def bitcoin_hash_simulator(block_data, difficulty_zeros):
-    nonce = 0
-    target_prefix = '0' * difficulty_zeros
-    print(f"Starting mining for data: '{block_data}' with difficulty: {difficulty_zeros} leading zeros...")
+          def bitcoin_hash_simulator(block_data, difficulty_zeros):
+         nonce = 0
+       target_prefix = '0' * difficulty_zeros
+       print(f"Starting mining for data: '{block_data}' with difficulty: {difficulty_zeros} leading zeros...")
 
     start_time = time.time()
     while True:
@@ -46,9 +46,15 @@ def bitcoin_hash_simulator(block_data, difficulty_zeros):
         # Optional: Print progress every X nonces (can be slow for high difficulty)
         # if nonce % 100000 == 0:
         #     print(f"Attempting nonce: {nonce}, Current Hash: {sha256_hash}")
-        block_data_example = "My first transaction data!"
-        desired_difficulty = 5  # Number of leading zeros required (e.g., 4, 5, 6)
+            
 
+# --- Simulation Parameters ---
+# You can change these values to see how the difficulty affects mining time
+    block_data_example = "My first transaction data!"
+    desired_difficulty = 5  # Number of leading zeros required (e.g., 4, 5, 6)
+
+# Run the simulator
+      bitcoin_hash_simulator(block_data_example, desired_difficulty)
    
             
 

@@ -46,14 +46,15 @@ def bitcoin_hash_simulator(block_data, difficulty_zeros):
         # Optional: Print progress every X nonces (can be slow for high difficulty)
         # if nonce % 100000 == 0:
         #     print(f"Attempting nonce: {nonce}, Current Hash: {sha256_hash}")
+        block_data_example = "My first transaction data!"
+        desired_difficulty = 5  # Number of leading zeros required (e.g., 4, 5, 6)
+
+   
             
 
 # --- Simulation Parameters ---
 # You can change these values to see how the difficulty affects mining time
-block_data_example = "My first transaction data!"
-desired_difficulty = 5  # Number of leading zeros required (e.g., 4, 5, 6)
 
-!>
 
 ## ในการรันโค้ดนี้:
 บันทึกเป็นไฟล์ Python (เช่นแฮช_ซิม.py-

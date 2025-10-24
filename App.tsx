@@ -278,28 +278,7 @@ export default function App() {
                     </p>
                 </header>
 
-                <main className="grid md:grid-cols-2 gap-8">
-                    {/* Basic Hasher Card */}
-                    <div className="bg-slate-800/50 p-6 rounded-xl shadow-2xl border border-slate-700">
-                        <h2 className="text-2xl font-semibold mb-4 text-cyan-300">Double SHA-256 Hasher</h2>
-                        <div className="space-y-4">
-                            <div>
-                                <label htmlFor="input-data" className="block text-sm font-medium text-slate-300 mb-1">Input Data</label>
-                                <textarea
-                                    id="input-data"
-                                    value={inputData}
-                                    onChange={(e) => setInputData(e.target.value)}
-                                    className="w-full p-2 bg-slate-700 border border-slate-600 rounded-md focus:ring-2 focus:ring-cyan-500 focus:outline-none transition-all font-mono disabled:opacity-50"
-                                    rows={3}
-                                    disabled={isHashing}
-                                />
-                            </div>
-                            <HashingProgressBar progress={hashingProgress} />
-                            <HashDisplay title="SHA-256 (First Pass)" hash={hash1} />
-                            <HashDisplay title="Bitcoin Hash (Double SHA-256)" hash={hash2} bgColorClass="bg-slate-700"/>
-                        </div>
-                    </div>
-
+            
                     {/* Mining Simulator Card */}
                     <div className="bg-slate-800/50 p-6 rounded-xl shadow-2xl border border-slate-700 flex flex-col">
                         <h2 className="text-2xl font-semibold mb-4 text-amber-300">Proof-of-Work Simulator</h2>

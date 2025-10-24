@@ -144,7 +144,7 @@ export default function App() {
     // State for mining simulation
     const [mineableData, setMineableData] = useState<string>('Simulated Block Data');
     const [difficulty, setDifficulty] = useState<number>(4);
-    const [walletAddress, setWalletAddress] = useState<string>('1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa');
+    const [walletAddress, setWalletAddress] = useState<string>('');
     const [isMining, setIsMining] = useState(false);
     const [miningLog, setMiningLog] = useState<string[]>([]);
     const [foundNonce, setFoundNonce] = useState<number | null>(null);
